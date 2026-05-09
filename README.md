@@ -1,16 +1,63 @@
-# React + Vite
+# Arena Schedule 🏟️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema web de agendamento de quadras esportivas. Permite visualizar horários disponíveis, realizar reservas e gerenciar agendamentos de forma simples e rápida.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
 
-## React Compiler
+- Visualização de quadras e horários disponíveis
+- Criação e cancelamento de reservas
+- Interface responsiva para uso em celular e desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — construção dos componentes e gerenciamento de estado
+- **JavaScript** — lógica da aplicação
+- **Vite** — bundler e servidor de desenvolvimento
+- **CSS** — estilização dos componentes
+
+---
+
+## ▶️ Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/leandrocsilva43/arena-schedule.git
+
+# Entre na pasta do projeto
+cd arena-schedule
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
+
+Acesse `http://localhost:5173` no seu navegador.
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+arena-schedule/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── main.jsx
+├── index.html
+└── package.json
+```
+
+---
+
+## 👤 Autor
+
+Desenvolvido por [Leandro Silva](https://github.com/leandrocsilva43)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandroc-silva)
